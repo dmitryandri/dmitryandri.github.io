@@ -1,0 +1,365 @@
+html{
+	font-size: 10px;
+}
+body {
+	font-family: 'Balsamiq Sans', cursive;
+	margin: 0 auto;
+	z-index: 0;
+}
+a:active, a:visited, a:focus {
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+}
+
+.shapka {
+	width: 100%;
+	height: 100vh;
+	background-color: #F4E6F7;
+	color: #572A64;
+	display: table;
+	position: relative;
+}
+.shapka .sh {
+	text-align: center;
+	display: table-cell;
+	vertical-align:middle;
+}
+.shapka .sh img {
+	max-width: 45rem;
+	margin-top: -3rem;
+}
+.nach-star i{
+	position: absolute;
+	z-index: 4;
+	bottom: 2rem;
+	display: inline-block;
+	font-size: 2.5rem;
+	width: 63px;
+	height: 63px;
+	border-radius: 50%;
+	border: 2px solid transparent;
+	line-height: 60px;
+	left: 50%;
+	margin-left: -25px;
+	transition: 0.2s;
+}
+.nach-star i {
+	color: #572A64;
+}
+.nach-star i:hover {
+	border-color: #fff;
+	background-color: #572A64;
+	color: #fff;
+}
+/* .shapka .sh p{
+	font-size: 2.9rem;
+	font-family: 'Marck Script', cursive;
+}
+.shapka .sh i{
+	color: #572A64;
+	font-size: 2rem;
+}
+.shapka .sh i:hover{
+	color: #FFE6B0;
+} */
+/* .shapka .col-md-4:nth-child(2){
+	font-size: 2.9rem;
+	margin-top: 3rem;
+	font-family: 'Marck Script', cursive;
+}
+.shapka .col-md-4:nth-child(3){
+	font-size: 3rem;
+	margin-top: 3.5rem;
+}
+.shapka .col-md-4:nth-child(3) p{
+	font-size: 2rem;
+	margin-top: -0.5rem;
+}
+.shapka .col-md-4 i{
+	color: #572A64;
+}
+.shapka .col-md-4 i:hover{
+	color: #FFE6B0;
+} */
+
+
+.block1 {
+	background: #C9BEC5;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	text-align: center;
+	display: table;
+	color: #000;
+}
+.block1 .bl1 {
+	margin: 0 auto;
+	display:table-cell;
+	vertical-align:middle;
+}
+.block1 .bl1 p{
+	font-size: 2.7rem;
+	color: #572A64; 
+	margin-left: 2rem;
+	font-family: 'Marck Script', cursive;
+}
+.block1 .bl1 i{
+	color: #572A64;
+	font-size: 3.2rem;
+	margin-left: 2rem;
+}
+.block1 .bl1 i:hover{
+	color: #FFE6B0;
+} 
+
+.block1_1 {
+	background: #C9BEC5;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	display: table;
+	color: #000;
+}
+.block1_1 img{
+	width: 50rem;
+	margin-left: 5rem;
+	margin-top: -10rem;
+}
+.block1_1 p{
+	font-size: 2.3rem;
+	color: #572A64; 
+	margin-left: 2rem;
+	/* font-family: 'Marck Script', cursive; */
+}
+.block1_1 .col-md-6:nth-child(1){
+	font-family: 'Marck Script', cursive;
+}
+
+.fon {
+	width: 100%;
+	height: 100vh;
+	background-color: #F4E6F7;
+	color: #572A64;
+	display: table;
+	position: relative;
+}
+.fon .fn {
+	text-align: center;
+	display: table-cell;
+	vertical-align:middle;
+}
+.fon .fn p {
+	font-size: 5rem;
+	color: #572A64;
+	margin-top: 0rem; 
+}
+.fon .fn img {
+	max-width: 24rem;
+	margin-top: 3rem;
+}
+
+.block2 .t1{
+	background: #fff;
+	width: 100%;
+	height: 50vh;
+	display: table;
+	position: relative;
+	/* background: #C9BEC5 center center no-repeat; */
+}
+.block2 p{
+	color: #572A64; 
+	font-family: 'Marck Script', cursive;
+	padding: 2rem;
+	text-align: center;
+	margin-top: -5rem;
+}
+.block2 .fot img {
+	max-width: 50rem;
+}
+.block2 .fot .f img {
+	width: 20rem;
+}
+.block2 .fot {
+	display: table-cell;
+	vertical-align:middle;
+	width: 50%;
+	font-size: 2rem;
+}
+.block2 .txt {
+	display: table-cell;
+	vertical-align:middle;
+	width: 50%;
+	font-size: 2.4rem;
+}
+.block2 .fot {
+	background-color: #C9BEC5;
+	text-align: center;
+}
+.block2 .txt h4 {
+	font-size: 3.6rem;
+	color: #572A64;
+	text-align: center;	
+	font-family: 'Marck Script', cursive;
+}
+span {
+	font-size: 2rem;
+	font-family: 'Balsamiq Sans', cursive;
+	font-weight: normal;
+	font-style: italic;
+
+}
+.block3 .t1{
+	background: #fff;
+	width: 100%;
+	height: 50vh;
+	display: table;
+	position: relative;
+	/* background: #C9BEC5 center center no-repeat; */
+}
+.block3 p{
+	font-size: 2.7rem;
+	color: #572A64; 
+	font-family: 'Marck Script', cursive;
+	padding: 2rem;
+	text-align: center;
+	margin-top: -5rem;
+}
+.block3 img {
+	max-width: 60rem;
+}
+.block3 .txt {
+	text-align: center;
+	display: table-cell;
+	vertical-align:middle;
+	width: 50%;
+	font-size: 2.4rem;
+}
+.block3 .txt h4 {
+	font-size: 3.6rem;
+	color: #572A64;
+	text-align: center;	
+	font-family: 'Marck Script', cursive;
+}
+.block3 .fot {
+	background-color: #C9BEC5;
+	text-align: center;
+	display: table-cell;
+	vertical-align:middle;
+	width: 50%;
+	font-size: 2rem;
+}
+.block3 .fot .f img {
+	width: 20rem;
+}
+
+
+.block4 .t1{
+	background: #fff;
+	width: 100%;
+	height: 50vh;
+	display: table;
+	position: relative;
+	/* background: #C9BEC5 center center no-repeat; */
+}
+.block4 p{
+	font-size: 2.7rem;
+	color: #572A64; 
+	font-family: 'Marck Script', cursive;
+	padding: 2rem;
+	text-align: center;
+	margin-top: -5rem;
+}
+.block4 img {
+	max-width: 60rem;
+}
+.block4 .txt {
+	text-align: center;
+	display: table-cell;
+	vertical-align:middle;
+	width: 50%;
+	font-size: 2.4rem;
+}
+.block4 .txt h4 {
+	font-size: 3.6rem;
+	color: #572A64;
+	text-align: center;	
+	font-family: 'Marck Script', cursive;
+}
+.block4 .fot {
+	background-color: #C9BEC5;
+	text-align: center;
+	display: table-cell;
+	vertical-align:middle;
+	width: 50%;
+	font-size: 2rem;
+}
+.block4 .fot .f img {
+	width: 20rem;
+}
+
+
+.deckor {
+	background: #C9BEC5;
+	width: 100%;
+	position: relative;
+	/* text-align: center; */
+	display: table;
+	color: #572A64;
+}
+.deckor h3{
+	text-align: center;
+	font-size: 3rem;
+}
+.deckor p{
+	font-size: 2rem;
+	margin-bottom: 6rem;
+}
+
+.dost {
+	background: #C9BEC5;
+	width: 100%;
+	position: relative;
+	/* text-align: center; */
+	display: table;
+	color: #572A64;
+}
+.dost img {
+	width: 40rem;
+	margin-left: 15rem;
+}
+.dost p{
+	font-size: 2rem;
+	margin-bottom: 6rem;
+}
+
+.footer {
+	width: 100%;
+	height: 100vh;
+	background: #F4E6F7;
+	color: #572A64;
+	display: table;
+	position: relative;
+}
+.footer .foot {
+	text-align: center;
+	display: table-cell;
+	vertical-align:middle;
+}
+.footer .foot img{
+	margin-left: 0rem;
+	max-width: 25rem;
+	display: inline;
+}
+.footer .foot p{
+	font-family: 'Marck Script', cursive;
+	font-size: 4rem;
+}
+.footer .foot i{
+	color: #572A64;
+	font-size: 3.2rem;
+}
+.footer .foot i:hover{
+	color: #FFE6B0;
+} 
+
