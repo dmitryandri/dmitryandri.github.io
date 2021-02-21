@@ -363,3 +363,138 @@ span {
 	color: #FFE6B0;
 } 
 
+@media (min-width: 0px) and (max-width: 991px) {
+	html {
+		font-size: 7px;
+	}
+	.block1_1 img{
+		max-width: 30rem;
+		margin-left: 5rem;
+		margin-top: 3rem;
+	}
+	.block1_1 p{
+		font-size: 2rem;
+	}
+	.block2 p{
+		padding: 0rem;
+		margin-top: 0rem;
+	}
+	.block2 .fot img {
+		max-width: 35rem;
+		padding: 1rem;
+	}
+	.block2 .fot .f img {
+		max-width: 30rem;
+	}
+	.block2 .fot {
+		display: table-row-group;
+		text-align: center;
+		vertical-align: middle;
+		width: 100%;
+		font-size: 1.8rem;
+	}
+	.block2 .txt {
+		display: table-cell;
+		vertical-align:none;
+		width: 100%;
+		font-size: 1.8rem;
+	}
+	.block2 .txt h4 {
+		font-size: 3rem;
+	}
+	
+	.block3 p{
+		padding: 0rem;
+		margin-top: 0rem;
+	}
+	.block3 .fot img {
+		max-width: 35rem;
+		padding: 1rem;
+	}
+	.block3 .fot .f img {
+		max-width: 30rem;
+	}
+	.block3 .fot {
+		display: table-row-group;
+		text-align: center;
+		vertical-align: middle;
+		width: 100%;
+		font-size: 1.8rem;
+	}
+	.block3 .txt {
+		display: table-cell;
+		vertical-align:none;
+		width: 100%;
+		font-size: 1.8rem;
+	}
+	.block3 .txt h4 {
+		font-size: 3rem;
+	}
+	
+	.block4 p{
+		padding: 0rem;
+		margin-top: 0rem;
+	}
+	.block4 .fot img {
+		max-width: 35rem;
+		padding: 1rem;
+	}
+	.block4 .fot .f img {
+		max-width: 30rem;
+	}
+	.block4 .fot {
+		display: table-row-group;
+		text-align: center;
+		vertical-align: middle;
+		width: 100%;
+		font-size: 1.8rem;
+	}
+	.block4 .txt {
+		display: table-cell;
+		vertical-align:none;
+		width: 100%;
+		font-size: 1.8rem;
+	}
+	.block4 .txt h4 {
+		font-size: 3rem;
+	}
+	
+	.deckor p{
+		font-size: 1.8rem;
+		/* margin-bottom: 6rem; */
+	}
+	
+	.dost img {
+		max-width: 25rem;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		text-align: center;
+	}
+	.dost p{
+		font-size: 1.8rem;
+		margin-bottom: 0rem;
+	}
+
+	.footer {
+		height: 100vh;
+	}
+	.footer .foot {
+		text-align: center;
+		display: table-cell;
+		vertical-align:middle;
+	}
+	.footer .foot img{
+		margin-left: 0rem;
+		text-align: center;
+		max-width: 25rem;
+	}
+	.footer .foot p{
+		font-size: 4rem;
+	}
+	.footer .foot i{
+		color: #572A64;
+		font-size: 2rem;
+		display: table-row-group;
+	}
+
+}
